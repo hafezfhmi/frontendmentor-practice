@@ -37,9 +37,6 @@ td {
 .content-table a {
   text-decoration: none;
   color: black;
-  background-color: rgb(177, 222, 240);
-  border-radius: 25px;
-  padding: 0.3rem;
 }
 
 .content-table a:hover,
