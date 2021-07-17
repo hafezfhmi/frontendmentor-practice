@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png" />
 
     <!-- styling -->
     <link rel="stylesheet" href="style.css" />
@@ -38,11 +38,11 @@
           </div>
           <label>Select Tip %</label>
           <div class="input-tip">
-            <button class="tip-button" onclick="active(5)">5%</button>
-            <button class="tip-button" onclick="active(10)">10%</button>
-            <button class="tip-button" onclick="active(15)">15%</button>
-            <button class="tip-button" onclick="active(25)">25%</button>
-            <button class="tip-button" onclick="active(50)">50%</button>
+            <button class="tip-button" onclick="active(this)" value="5">5%</button>
+            <button class="tip-button" onclick="active(this)" value="10">10%</button>
+            <button class="tip-button" onclick="active(this)" value="15">15%</button>
+            <button class="tip-button" onclick="active(this)" value="25">25%</button>
+            <button class="tip-button" onclick="active(this)" value="50">50%</button>
             <input class="tip-button text-input" type="number" placeholder="Custom" />
           </div>
           <label for="people">Number of People</label>
@@ -79,4 +79,5 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

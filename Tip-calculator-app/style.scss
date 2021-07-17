@@ -102,6 +102,12 @@ header {
         }
       }
 
+      .tip-button-active {
+        background-color: $strong-cyan;
+        border-color: $strong-cyan;
+        color: $very-dark-cyan;
+      }
+
       .text-input {
         background-color: $light-grayish-cyan2;
         border: 2px solid $light-grayish-cyan2;

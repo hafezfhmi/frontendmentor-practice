@@ -113,6 +113,12 @@ header img {
   color: #00494d;
 }
 
+.container .calculator-input .input-tip .tip-button-active {
+  background-color: #26c0ab;
+  border-color: #26c0ab;
+  color: #00494d;
+}
+
 .container .calculator-input .input-tip .text-input {
   background-color: #f4fafa;
   border: 2px solid #f4fafa;
